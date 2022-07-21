@@ -29,7 +29,9 @@ export default function Page() {
       <div>
         <img className="character" src={profile.imageUrl}></img>
         <h1 className="name">"{profile.name}"</h1>
-        <button>Add to Favourites</button>
+      </div>
+      <div>
+        <button className="add_to_fav">Add to Favourites</button>
       </div>
       <div className="description">
         <div className="found-container">
@@ -67,11 +69,11 @@ export default function Page() {
   );
 }
 
-            {
-              /* <ul>
+{
+  /* <ul>
               {" "}
               {profile.films?.map((z) => (
                 <li>{z}</li>
               ))}
             </ul> */
-            }
+}

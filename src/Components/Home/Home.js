@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import "./home.css";
+import "./index.css";
 import snowflake from "./snowflake.png";
 import DataDisney from "../Characters/DataDisney";
 

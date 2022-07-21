@@ -5,6 +5,8 @@ import "./index.css";
 import { AiOutlineLeftCircle } from "react-icons/ai";
 import { AiOutlineRightCircle } from "react-icons/ai";
 
+
+
 function DataDisney() {
   //current page
   const [currentPage, setCurrentPage] = useState(1);
@@ -39,29 +41,33 @@ function DataDisney() {
   console.log(characterList);
   return (
     <div className="body">
-      <h1>CHARACTERS</h1>
-      <button
-        className="previous"
-        onClick={() => {
-          setCurrentPage(currentPage - 1);
-        }}
-      >
-        {""} <AiOutlineLeftCircle />
-      </button>
-      <button
-        className="next"
-        onClick={() => {
-          setCurrentPage(currentPage + 1);
-        }}
-      >
-        {""} <AiOutlineRightCircle />
-      </button>
+      <div className="buttons">
+        <h1 className="title">CHARACTERS</h1>
+        
+        <button
+          className="previous"
+          onClick={() => {
+            setCurrentPage(currentPage - 1);
+          }}
+        >
+          {""} <AiOutlineLeftCircle />
+        </button>
+        <button
+          className="next"
+          onClick={() => {
+            setCurrentPage(currentPage + 1);
+          }}
+        >
+          {""} <AiOutlineRightCircle />
+        </button>
+      </div>
 
-      <div>
+      <div className="container">
         {characterList.map((characters) => {
           return (
             <div key={characters._id} className="images">
-              <button id="show-modal">
+              {/* <button id="show-modal"> */}
+              <button>
                 <img
                   className="scale"
                   onClick={() => {
