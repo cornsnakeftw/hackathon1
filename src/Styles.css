@@ -33,6 +33,7 @@ body {
 .img {
   width: 150px;
   height: 100px;
+  float:left;
 }
 
 .menu-bar {
