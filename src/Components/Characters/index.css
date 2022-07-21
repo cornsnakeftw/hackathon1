@@ -61,6 +61,7 @@
   border: 5px solid rgb(63, 2, 58);
 }
 .name {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .page-container {

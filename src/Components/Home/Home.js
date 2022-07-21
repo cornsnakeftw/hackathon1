@@ -4,6 +4,7 @@ import "./index.css";
 import snowflake from "./snowflake.png"
 import DataDisney from "../Characters/DataDisney";
 
+
 const Home = () => {
   return (
     <section className="body">
@@ -20,6 +21,7 @@ const Home = () => {
         <div className="footer">
           <h1 className="welcome">Welcome to Disneyland !</h1>
           <h2>Where all your dream comes true</h2>
+         
           <button onClick={DataDisney} className="characterPage">EXPLORE OUR MAGICAL WORLD</button>
           <p>© 2022 D-JAMZ Group</p>
         </div>

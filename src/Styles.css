@@ -39,7 +39,8 @@ img {
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 2rem;
+
+  gap: 1rem;
 }
 
 .navbar a {
