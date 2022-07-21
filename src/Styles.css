@@ -9,11 +9,12 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(
-      rgba(138, 0, 131, 0.7),
-      rgba(53, 2, 44, 0.7)
-    ),
-    url(frozen.jpg);
+  /* background-image: linear-gradient(
+      rgba(71, 0, 138, 0.7),
+      rgba(122, 23, 104, 0.7)
+    )
+    url(frozen.jpg); */
+  background-color:rgb(13, 6, 77);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +30,7 @@ body {
   margin-left: 50px;
 }
 
-img {
+.img {
   width: 150px;
   height: 100px;
 }
@@ -44,7 +45,7 @@ img {
 }
 
 .navbar a {
-  color: rgb(48, 6, 82);
+  color: rgb(223, 213, 213);
   text-decoration: none;
   font-size: 30px;
 
@@ -52,7 +53,7 @@ img {
   list-style: none;
   width: 60px;
   height: 60px;
-  background: rgb(161, 29, 194);
+  background: rgb(13, 6, 77);
   border-radius: 60px;
   cursor: pointer;
   display: flex;
@@ -72,7 +73,7 @@ img {
   position: absolute;
   inset: 0;
   border-radius: 60px;
-  background: linear-gradient(45deg, #c44d96, #b700ff);
+  background: linear-gradient(45deg, #c06ca0, #b700ff);
   opacity: 0;
   transition: 0.5s;
 }
@@ -107,7 +108,7 @@ img {
 
 .navbar a:hover AiOutlineHome {
   transform: scale(0);
-  color: rgb(127, 0, 153);
+  color: rgb(255, 0, 255);
   transition-delay: 0s;
 }
 
